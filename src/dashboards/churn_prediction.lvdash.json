@@ -103,7 +103,7 @@
                    "spec":{
                       "version":0,
                       "viz_spec":{
-                         "display_name":"Total MRR",
+                         "display_name":"Total MRR ($)",
                          "description":"",
                          "viz_type":"COUNTER",
                          "serialized_options":"{\"counterLabel\": \"\", \"counterColName\": \"MRR\", \"rowNumber\": 1, \"targetRowNumber\": 1, \"stringDecimal\": 0, \"stringDecChar\": \".\", \"stringThouSep\": \",\", \"tooltipFormat\": \"0,0.000\", \"showPlotlyControls\": true, \"stringSuffix\": \"\", \"stringPrefix\": \"$\", \"condensed\": true, \"withRowNumber\": true}",
