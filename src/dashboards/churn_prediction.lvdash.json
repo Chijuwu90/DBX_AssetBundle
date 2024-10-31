@@ -2,7 +2,7 @@
     "datasets":[
        {
           "name":"15438493",
-          "displayName":"Churn - Total MRR - Universal",
+          "displayName":"Churn - Total MRR ($) - Universal",
           "query":"SELECT sum(amount)/10 as MRR FROM `ju_demos`.`dbdemos_retail_c360`.churn_orders o WHERE month(to_timestamp(creation_date, 'MM-dd-yyyy HH:mm:ss')) = \n      (select max(month(to_timestamp(creation_date, 'MM-dd-yyyy HH:mm:ss'))) from `ju_demos`.`dbdemos_retail_c360`.churn_orders);"
        },
        {
