@@ -6,6 +6,12 @@ bundle:
 include:
   - resources/*.yml
 
+variables:
+  # The "warehouse_id" variable is used to reference the warehouse used by the dashboard.
+  warehouse_id:
+    lookup:
+      warehouse: "Shared Endpoint"
+
 targets:
   # The 'dev' target, for development purposes. This target is the default.
   dev:
