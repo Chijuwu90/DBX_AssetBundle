@@ -1,7 +1,7 @@
 resources:
   dashboards:
     churn_prediction:
-      display_name: "churn_prediction"
+      display_name: "churn_prediction_chiju"
       warehouse_id: ${var.warehouse_id}
       file_path: ../src/dashboards/churn_prediction.lvdash.json
 
