@@ -3,7 +3,7 @@ resources:
     churn_prediction:
       display_name: "churn_prediction"
       warehouse_id: ${var.warehouse_id}
-      file_path: ../src/dashboards/Churn Prediction Dashboard - Universal - chiju_wu (AI BI).lvdash.json
+      file_path: ../src/dashboards/churn_prediction.lvdash.json
 
   jobs:
     dab_demo_job:
